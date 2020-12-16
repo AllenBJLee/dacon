@@ -1,0 +1,1 @@
+funda/input/funda_train.csv filter=lfs diff=lfs merge=lfs -text
