@@ -67,17 +67,3 @@ class Utils :
         test_y = y[~y.index.isin(train_index)]
         
         return train_X, test_X, train_y, test_y
-        # bool_y = df[ date_column] >= '2018-12-01'
-        
-        # y = df[bool_y].groupby('store_id').amount.sum()
-        # x = df[~bool_y]
-
-        # idx_train = y.sample(frac=0.8, random_state=85).index
-
-        # train_x = x[x.store_id.isin(idx_train)]
-        # test_x  = x[~x.store_id.isin(idx_train)]
-
-        # train_y = y[y.index.isin(idx_train)]
-        # test_y  = y[~y.index.isin(idx_train)]
-
-        # return train_x, test_x, train_y, test_y
